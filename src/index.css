@@ -1,0 +1,288 @@
+ /* @font-face {
+    font-family: IBM-plex-sans;
+    src: url('../fonts/complete/eot/IBMPlexThai-Bold.eot'), 
+    url('webfont.woff2') format('woff2'), 
+    url('webfont.woff') format('woff'), 
+    url('../fonts/complete/ttf/IBMPlexThai-Regular.ttf') format('truetype'),
+    url('webfont.otf') format('svg');
+}
+
+@font-face {
+    font-family: IBM-plex-thai;
+    src: url('../fonts/complete/eot/IBMPlexThai-Bold.eot'),
+    url('webfont.woff2') format('woff2'),
+    url('webfont.woff') format('woff'), 
+    url('../fonts/complete/ttf/IBMPlexThai-Regular.ttf') format('truetype'),
+    url('webfont.otf') format('svg');
+}
+
+body {
+    background: linear-gradient(to bottom right, #F6F6F6, #E5E5E5) !important;
+    font-family: 'IBM-plex-sans' !important;
+}
+
+.menu {
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+}
+
+.charmenu {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 20px;
+    display: inline;
+}
+
+.menu:hover {
+    color: #000000;
+}
+
+.charmenusub:hover {
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.update {
+    text-align: right;
+}
+
+.box1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.box1 .logolarge {
+    padding-left: 0px !important;
+    padding-right: 19px !important;
+    margin-right: -24px !important;
+}
+
+.box1.textred {
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.largenumber {
+    line-height: 1;
+    font-size: 50px;
+    margin-top: -6px;
+}
+
+.text1 {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.text1.red {
+    color: #FF4A4A;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    line-height: 2.5;
+}
+
+.text1.red2 {
+    color: #FF4A4A;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.text1.red2.mg {
+    margin-right: 30px;
+}
+
+.linkgrey:hover {
+    color: #FF4A4A;
+}
+
+.linkgrey {
+    color: #FF4A4A;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 7px solid #FF4A4A;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+}
+
+.circletop {
+    height: 22px;
+    width: 22px;
+    background: red;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+}
+
+.circlechart {
+    height: 12px;
+    width: 12px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin-right: 5px;
+}
+
+.circlechart.green {
+    background: #1BE1AE;
+}
+
+.circlechart.yellow {
+    background: #FFB507;
+}
+
+.circlechart.gray {
+    background: #98A5AE;
+}
+
+.circlechart.blue {
+    background: #3A6FFF;
+}
+
+.line {
+    height: 2px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    width: 100%;
+    margin: 1px 0px;
+}
+
+.vertical-line {
+    width: 1px;
+    border-top: 33px solid #707070;
+    height: 100%;
+    float: left;
+    margin-right: 12px;
+}
+
+.paddingbox {
+    padding: 25px;
+    padding-bottom: 20px;
+}
+
+.paddinglogo {
+    padding-right: 0px !important;
+}
+
+.mainchar {
+    line-height: 1;
+    font-size: 40px;
+    margin-top: -6px;
+}
+
+.mainchar-m {
+    line-height: 1;
+    font-size: 40px;
+    margin-top: -6px;
+}
+
+.download {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.img-download {
+    height: auto;
+    width: 20px;
+}
+
+.mydropdown {
+    background: white !important;
+    border: none !important;
+    color: #FF4A4A !important;
+    margin-left: 8px;
+    border-radius: 2rem !important;
+}
+
+.dd {
+    margin-right: 12px;
+}
+
+.buttongroup {
+    border-radius: 3rem !important;
+    padding: 2px 8px !important;
+}
+
+.buttonpad {
+    margin-left: -35px;
+    padding-top: 25px;
+}
+
+.btn-secondary {
+    color: red !important;
+    background-color: white !important;
+    border-color: rgba(112, 112, 112, 0.16) !important;
+}
+
+
+.paddingtextbox {
+    padding: 0px;
+    align-items: center;
+}
+
+.textbox {
+    border: 2px solid rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    background: white;
+    width: 100%;
+    align-items: center;
+}
+
+.percennumber {
+    font-size: 30px
+}
+
+.margintextbox {
+    margin-left: -20px;
+    margin-top: 61px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.buttongroup2 {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.buttongroup2ra {
+    border-radius: 0.5rem !important;
+}
+
+.buttonday {
+    font-size: 12px !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.page-link.a {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+    padding: .25rem 1rem !important;
+}
+
+.page-link.b {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+    padding: .25rem 1rem !important;
+}
+
+.page-item.a {
+    width: 100%;
+}   */
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
